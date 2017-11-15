@@ -74,21 +74,21 @@
             android:layout_height="wrap_content"
             android:text="+3 Point"
             android:layout_margin="8dp"
-            android:onClick="displayScore3"/>
+            android:onClick="displayScore3B"/>
         <Button
             android:id="@+id/btnPoint2_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 Point"
             android:layout_margin="8dp"
-            android:onClick="displayScore2"/>
+            android:onClick="displayScore2B"/>
         <Button
             android:id="@+id/btnPointFree_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Free Throw"
             android:layout_margin="8dp"
-            android:onClick="displayScoreFree"/>
+            android:onClick="displayScoreFreeB"/>
     </LinearLayout>
 
 </LinearLayout>
