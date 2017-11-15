@@ -37,17 +37,17 @@ public class MainActivity extends AppCompatActivity {
     //method dipanggil ketika button plus 3 diklik
     public void displayScore3B(View view){
         scoreTeamB = scoreTeamB + 3;
-        displayTeamA(scoreTeamB);
+        displayTeamB(scoreTeamB);
     }
     //method dipanggil ketika button plus 2 diklik
     public void displayScore2B(View view){
         scoreTeamB = scoreTeamB + 2;
-        displayTeamA(scoreTeamB);
+        displayTeamB(scoreTeamB);
     }
     //method dipanggil ketika button free throw diklik
     public void displayScoreFreeB(View view){
         scoreTeamB = scoreTeamB + 1;
-        displayTeamA(scoreTeamB);
+        displayTeamB(scoreTeamB);
     }
 
 
